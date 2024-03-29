@@ -1,0 +1,28 @@
+.header {
+    background: #000;
+    color: aqua;
+}
+
+.nav {
+    background: #645a5a;
+}
+
+.section {
+    background: #592c2c;
+    color: aliceblue;
+}
+
+.article1 {
+    background: #000;
+}
+.article2 {
+    background: #cd0e0e;
+}
+
+.aside {
+    background: #339b0a;
+}
+
+.footer {
+    background: #124562;
+}

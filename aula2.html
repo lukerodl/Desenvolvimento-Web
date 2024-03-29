@@ -75,7 +75,112 @@
     </table>
 
     <h1>FORMS</h1>
+    <form>
+        <h2>Caixas de texto</h2>
+        <input type="text" id="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>    
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+        <h2>Botões</h2>
+        <button type="submit">enviar informação</button>
+        <button type="reset">apagar informações</button>
+        <button type="button">Nada acontece</button>
+    </form>
+    
+<form action="">
+    <input type="radio" name="gênero" value="masculino">
+    <span>maculino</span>
+    <input type="radio" name="gênero" value="feminino">
+    <span>feminino</span>
+    <input type="radio" name="cores" value="azul">
+    <span>azul</span>
+    <input type="radio" name="cores" value="branco">
+    <span>branco</span>
+</form>
+<br>
+
+<form action="">
+    <input type="checkbox" name="gênero" value="masculino">
+    <span>aceita termos</span>
+</form>
+<br>
+
+<form>
+    <select name="tamanhos">
+        <option value=""></option>
+        <option value="G">Grande</option>
+        <option value="M">Médio</option>
+        <option value="P">Pequeno</option>
+    </select>
+</form>
+<br>
+<form>
+    <label for="nome">Nome</label>
+    <input type="text" placeholder="nome completo">
+    <label for="idade">Idade</label>
+    <input type="number" id="">
+</form>
+
+<br>
+<div>
+    <form>
+        <fieldset> 
+            <legend>Dados pessoais</legend> 
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="nome completo">
+                <label for="idade">Idade</label>
+                <input type="number" id="">
+            </form>
+        </fildset>
+    </form>
+</div>
+<br>
+
+<div>
+    <fieldset> 
+    <legend>Informações pessoais</legend>
+    <form>
+        <div>gênero</div>
+        <div>
+            <input type="radio" name ="genero" value="masculino">
+            <span>masculino</span>
+            <input type="radio" name ="genero" value="feminino">
+            <span>feminino</span>
+        </div>
+        <br>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label for="tamanho">Tamanho:</label>
+            <select name="tamanho">
+                <option>Grande</option>
+                <option>Médio</option>
+                <option>Pequeno</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        
+    </form>
+</fieldset>
+</div>
+<a href="https://app.pipefy.com/graphiql" target="_blank">link com target</a> 
+</body>
+<footer>
+    <br>
     <a href="/aula1.html"><button>Aula 1</button></a>
     <a href="/aula3.html"><button>Aula 3</button></a>
-</body>
+</footer>
+
 </html>

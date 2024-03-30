@@ -36,13 +36,6 @@ h2 {
 }
 
 ul {
-    list-style-type:lower-roman ;
-    position: relative;
-    left: 30px
+    display: flex;
+    flex-direction: column;
 }
-
-.teste{ 
-    background: #b29c9c;
-    position: relative;
-    top: 250px;
- } 
